@@ -7,6 +7,7 @@ extern SPI_HandleTypeDef hspi2;
 extern UART_HandleTypeDef huart2;
 uint8_t buf2[8]={0};
 char str1[30]={0};
+uint8_t test_var=10;
 //--------------------------------------------------------
 static void Error()
 {
